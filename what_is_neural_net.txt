@@ -1,0 +1,25 @@
+Activation = each neuron has number between 0-1 (the are that lights up more is closer to 1)
+
+Simple example, the number 9 has edges and has lines, then each layer just simply activate the neuron for the hidden layer that correspond to what it is learning about. 9 has loops and edges, so the neuron that is active in the hidden layer is the layer that learns about loops and edges. Something like that
+
+Learning loops and edges (This is only one neuron from hidden layer)
+------------------------------------------
+weight = just simply a number
+
+Weight and activation is multiplied and added for each and every neuron
+
+So in the region in which the neuron is active with number 1, the weight that is important is only in that region
+
+We want activation between 0 and 1
+
+So the activation of neuron in hidden layer is simply how positive the relevant weighted sum is. (sigmoid)
+
+Bias = maybe we only want the activation to be active when the weighted sum is >10, so we need Bias, just add -10 to the weighted sum.
+
+learning = finding right weight and bias
+-------------------------------------------
+
+each neuron = function
+
+
+

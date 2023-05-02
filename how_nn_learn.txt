@@ -1,0 +1,4 @@
+So how nn learn?
+
+1. Feed random weight and bias
+2. Give cost function. (add differences between the correct and the trash output activation function) = loss function
